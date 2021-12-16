@@ -23,9 +23,9 @@ class Salarie(Personnel):
         # le salarié prenom+nom a .. comme salaire
         rez='N° : '+str(self.num_)+"\n"
         rez+='Nom du salarié : '+self.prenom_+' '+self.nom_+"\n"
-        rez+='Adresse : '+self.adresse_+"\n"
-        rez+='Ville : '+self.ville_+"\n"
-        rez+='Fonction : '+self.fonction_+"\n"
-        rez+='salaire à payer : '+str(self.salaire_)
+        rez+='Code_postale : '+self.adresse_+"\n"
+        rez+='Pays : '+self.ville_+"\n"
+        rez+='Travail : '+self.fonction_+"\n"
+        rez+='total à payer : '+str(self.salaire_)
         return rez
     
